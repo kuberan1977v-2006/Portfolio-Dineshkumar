@@ -11,7 +11,7 @@ import { Input } from "@/components/ui/Input"
 import { Textarea } from "@/components/ui/Textarea"
 import { Mail, MapPin, Phone, Send, CheckCircle, Loader2, AlertCircle } from "lucide-react"
 
-const API_URL = "http://localhost:5000/contact"
+const API_URL = "https://portfolio-backend-cgcq.onrender.com"
 
 export const Contact = () => {
   const ref = useRef<HTMLDivElement>(null)
